@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TiendaEsperanza</title>
+    <title>Store Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <main>
 
         <div class= "container-img">
-            <img src="img/e2dc82222934c185d9bbf76d8977e8fa.jpg" alt="picN1">
+            <img src="img/adidas-campus-00s-gris.jpg" alt="picN1">
         </div>
 
         <div class="container-imfProducto">
@@ -26,17 +26,34 @@
             <div class="container-details-products">
                 
                 <div class="from-group">
-                    <label for="color">colour:</label>
+                    <label for="colour">color:</label>
                     <select name="colour" id="colour">
-                        <option disabled=""
-                            select value="">Escoge una opcion
-                        </option>
+                        <option disabled selected value="">Elije una opcion</option>
                         <option value="Rojo">Rojo</option>
                         <option value="Blanco">Blanco</option>
                         <option value="Beig">Beig</option>
-                        
+                    </select>
+                </div>
+
+                </div>
+                <div class="from-group">
+                    <label for="size">size:</label>
+                    <select name="size" id="size">
+                        <option disabled selected value="">Elije una opcion</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
                     </select>
 
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" aria-placeholder="1" value="1" min="1"
+                    class="input-quantity"/>
                 </div>
             </div>
         </div>
